@@ -71,7 +71,7 @@ Remember to check with mentor if the login function is safe:
 ```
 
 I messed up a little when I thought that you had to find a string that matches the hash, the idea was that you would have to write a script that finds one that matches. I missed that php is not at all accurate when two floats is compared.
-Example: <?php if("0e15" == md5('QNKCDZO')) echo "same"; ?>
+Example: ```<?php if("0e15" == md5('QNKCDZO')) echo "same"; ?><?php if("0e15" == md5('QNKCDZO')) echo "same"; ?>```
 
 Before I discovered this, I wrote a script that finds a matching string.
 
